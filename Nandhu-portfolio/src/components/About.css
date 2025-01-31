@@ -1,0 +1,16 @@
+/* src/pages/About.css */
+.about {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .about h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
