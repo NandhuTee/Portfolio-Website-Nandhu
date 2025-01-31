@@ -13,18 +13,19 @@
  * 
  * The application is rendered into the DOM element with the id 'root'.
  */
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import { RouterProvider } from 'react-router-dom';
-import './index.css'
-//import App from './App.jsx'
-import router from './routes';
 
+import { StrictMode } from 'react'; // Import StrictMode to enable additional checks for potential issues
+import { createRoot } from 'react-dom/client'; // Import createRoot to create a root for the app to be rendered into
+import { RouterProvider } from 'react-router-dom'; // Import RouterProvider to set up routing in the app
+import './index.css'; // Import the main stylesheet for the application
 
+// Importing router configuration from the 'routes' file
+import router from './routes'; 
 
+// Rendering the application inside the DOM element with id 'root'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    {/* RouterProvider wraps the app and provides routing functionality */}
     <RouterProvider router={router} />
   </StrictMode>
 );
-//RouterProvider is the central component for integrating routing in your React application.
