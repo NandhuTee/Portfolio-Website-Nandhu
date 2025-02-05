@@ -31,10 +31,7 @@ const Header = () => {
       {/* Container for the header icon (image) */}
       <div className="header-icon">
         {/* Display the image of the user (Nandhu) with alt text */}
-        <img 
-          src="D:\Learn-React\Portfolio Website Nandhu\Nandhu-portfolio\src\components\image\nandhu-photo.jpg" 
-          alt="Nandhu-Photo" 
-        />
+        <img src="D:\Learn-React\Portfolio Website Nandhu\Nandhu-portfolio\src\components\image.jpg" alt="Nandhu-Photo"/>
       </div>
     </header>
   );

@@ -12,14 +12,10 @@ import NotFound from './components/NotFound';
 // Create a new router using `createBrowserRouter` method from 'react-router-dom'
 const router = createBrowserRouter([ 
   {
-    // The base path for this router is the root ('/')
+    
     path: '/', 
-
-    // Define the root element (App component) which will be rendered for this path
     element: <App />, 
-
-    // Define the child routes under the root path
-    children: [
+      children: [
       { 
         // When the user navigates to '/', render the Home component
         path: '/', 
